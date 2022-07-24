@@ -38,7 +38,6 @@ public class AccountTests {
         Assertions.assertTrue(result == initialBalance);
 
     }
-
     @Test
     public void withdrawShouldDecreaseBalanceWhenSufficienBalance(){
         Account cc = AccountFactory.createAccount(800.0);
